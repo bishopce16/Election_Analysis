@@ -99,7 +99,6 @@ with open(file_to_save, "w") as txt_file:
         county_vote = county_votes[county]
         # 6c: Calculate the percentage of votes for the county.
         county_percentage = float(county_vote) / float(total_votes) * 100
-<<<<<<< HEAD:PyPoll_Challenge.py
 
         # 6d: Print the county results to the terminal.
         county_results = (
@@ -107,19 +106,6 @@ with open(file_to_save, "w") as txt_file:
         )
 
         print(county_results)
-=======
-
-         # 6d: Print the county results to the terminal.
-        county_results = (
-            f"{county}: {county_percentage:.1f}%: ({county_vote})"
-        )
-
-        print(county_results)
-
-         # 6e: Save the county votes to a text file.
-
-         # 6f: Write an if statement to determine the winning county and get its vote count.
->>>>>>> d3b0a53ea70e55e2e6dc62ffbd7182039ebf6ce0:PyPoll_Challenge
 
         # 6e: Save the county votes to a text file.
         # write f-string to txt file
