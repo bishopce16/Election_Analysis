@@ -56,5 +56,3 @@ Below is a screenshot of the election analysis txt file.
 Because the Python code does not have values for the candidate names or counties hard-coded, the script could be applied too other State elections by changing the following:
 * The “file_to_load” variable can easily be given a new path to a different csv file from another state’s election data.
 * The “file_to_save” variable can also be assigned to a new txt file to record the results.
-* 
-
